@@ -20,8 +20,10 @@ namespace TheSnake
             InitializeComponent();
             is_start = false;
             timer1.Enabled = true;
-            
-            
+
+            this.BackgroundImage = Properties.Resources.grassSmall;
+
+            Playground.BackColor = Color.FromArgb(100, 0, 0, 0);
         }
 
         private void pAUZAToolStripMenuItem_Click(object sender, EventArgs e)
@@ -68,13 +70,23 @@ namespace TheSnake
 
         private void Playground_Paint(object sender, PaintEventArgs e)
         {
-
+            //this.BackgroundImage = Properties.Resources.grassSmall;
         }
 
         private void timer2_Tick(object sender, EventArgs e)
         {
+            //Playground.CreateGraphics().Clear(Color.FromArgb(60, 0, 0, 0));
+            //Playground.CreateGraphics().Clear(Color.Transparent); //narazie nie jestem w stanie zmusic go do przezroczytsosci po czyszczeniu
+
+            //Playground.Invalidate();
+            //Playground.Controls.Clear();
+            Playground.CreateGraphics().Clear(Color.ForestGreen);
+            Playground.BackgroundImage = Properties.Resources.grassSmall;
             theSnake.move();
             theSnake.drawSnake(Playground.CreateGraphics(),Properties.Resources.snakepart);
+            
+            
+
         }
     }
 }

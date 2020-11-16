@@ -107,8 +107,8 @@
             // 
             // Playground
             // 
-            this.Playground.BackColor = System.Drawing.Color.Green;
-            this.Playground.BackgroundImage = global::TheSnake.Properties.Resources.grassSmall;
+            this.Playground.BackColor = System.Drawing.Color.Transparent;
+            this.Playground.ForeColor = System.Drawing.Color.Transparent;
             this.Playground.Location = new System.Drawing.Point(8, 27);
             this.Playground.Name = "Playground";
             this.Playground.Size = new System.Drawing.Size(280, 280);
@@ -119,6 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::TheSnake.Properties.Resources.grassSmall;
             this.ClientSize = new System.Drawing.Size(296, 318);
             this.Controls.Add(this.Playground);
             this.Controls.Add(this.menuStrip1);
