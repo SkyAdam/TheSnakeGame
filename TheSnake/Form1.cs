@@ -15,6 +15,8 @@ namespace TheSnake
         bool is_start;
         Snake theSnake;
         public Image imageSnake = Properties.Resources.snakepart;
+        Food theFood;
+        public Image imageFood = Properties.Resources.fruit;
         public Form1() //konstruktor dla form
         {
             InitializeComponent();
@@ -23,7 +25,7 @@ namespace TheSnake
 
             this.BackgroundImage = Properties.Resources.grassSmall;
 
-            Playground.BackColor = Color.FromArgb(100, 0, 0, 0);
+            Playground.BackColor = Color.FromArgb(50, 0, 0, 0);
         }
 
         private void pAUZAToolStripMenuItem_Click(object sender, EventArgs e)
@@ -66,6 +68,8 @@ namespace TheSnake
         {
             is_start = true;
             theSnake = new Snake(Playground.Width, Playground.Height);
+
+            theFood = new Food(theSnake.oneSegment);
         }
 
         private void Playground_Paint(object sender, PaintEventArgs e)
@@ -81,12 +85,32 @@ namespace TheSnake
             //Playground.Invalidate();
             //Playground.Controls.Clear();
             Playground.CreateGraphics().Clear(Color.ForestGreen);
-            Playground.BackgroundImage = Properties.Resources.grassSmall;
+            //Playground.BackgroundImage = Properties.Resources.grassSmall;
             theSnake.move();
             theSnake.drawSnake(Playground.CreateGraphics(),Properties.Resources.snakepart);
-            
+
+            theFood.drawFood(Playground.CreateGraphics(), imageFood);
             
 
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Up:
+                    theSnake.direction = "up";
+                    break;
+                case Keys.Down:
+                    theSnake.direction = "down";
+                    break;
+                case Keys.Right:
+                    theSnake.direction = "right";
+                    break;
+                case Keys.Left:
+                    theSnake.direction = "left";
+                    break;
+            }
         }
     }
 }

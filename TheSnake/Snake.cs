@@ -78,7 +78,7 @@ namespace TheSnake
         }
         public void drawSnake(Graphics g,Image imageOfSnake) //gdzie i co chce narysowac
         {
-            //g.Clear(Color.FromArgb(100,0,0,0));
+            
             for(int i =0; i < segments; i++)
             {
                 Point locationOfSegment = new Point(x[i], y[i]);
