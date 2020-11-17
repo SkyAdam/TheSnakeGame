@@ -87,5 +87,22 @@ namespace TheSnake
             }
             
         }
+        public void grow()
+        {
+            x[segments] = x[segments - 1];
+            y[segments] = y[segments - 1];
+            segments = segments + 1;
+        }
+        public bool isSnakeLife()
+        {
+            for(int i =1; i < segments; i++)
+            {
+                if(x[0]==x[i]&& y[0] == y[i])
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
