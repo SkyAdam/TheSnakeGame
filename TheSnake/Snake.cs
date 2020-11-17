@@ -95,9 +95,9 @@ namespace TheSnake
         }
         public bool isSnakeLife()
         {
-            for(int i =1; i < segments; i++)
+            for (int i = 1; i < segments; i++)
             {
-                if(x[0]==x[i]&& y[0] == y[i])
+                if (x[0] == x[i] && y[0] == y[i])
                 {
                     return false;
                 }

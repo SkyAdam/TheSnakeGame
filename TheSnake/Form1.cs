@@ -90,19 +90,18 @@ namespace TheSnake
             theSnake.drawSnake(Playground.CreateGraphics(),Properties.Resources.snakepart);
 
             theFood.drawFood(Playground.CreateGraphics(), imageFood);
-
             if (theFood.needFood(theSnake.x[0], theSnake.y[0]))
             {
                 theSnake.grow();
             }
-            if(theSnake.isSnakeLife() == false)
+            if (theSnake.isSnakeLife() == false)
             {
                 is_start = false;
                 Playground.CreateGraphics().Clear(Color.Black);
                 timer1.Enabled = true;
                 timer2.Enabled = false;
             }
-            
+
 
         }
 
