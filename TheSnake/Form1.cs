@@ -133,5 +133,19 @@ namespace TheSnake
                     
             }
         }
+
+        private void fASTERToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(timer2.Interval > 10)
+            {
+                timer2.Interval -= 10;
+            }
+        }
+
+        private void sLOWERToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            timer2.Interval += 10;
+            
+        }
     }
 }
