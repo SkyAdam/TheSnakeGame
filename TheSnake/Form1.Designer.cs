@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.sTARTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pAUZAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rESTARTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sPEEDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fASTERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,7 +45,6 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sTARTToolStripMenuItem,
-            this.pAUZAToolStripMenuItem,
             this.rESTARTToolStripMenuItem,
             this.sPEEDToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -63,18 +61,12 @@
             this.sTARTToolStripMenuItem.Text = "START";
             this.sTARTToolStripMenuItem.Click += new System.EventHandler(this.sTARTToolStripMenuItem_Click);
             // 
-            // pAUZAToolStripMenuItem
-            // 
-            this.pAUZAToolStripMenuItem.Name = "pAUZAToolStripMenuItem";
-            this.pAUZAToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.pAUZAToolStripMenuItem.Text = "STOP";
-            this.pAUZAToolStripMenuItem.Click += new System.EventHandler(this.pAUZAToolStripMenuItem_Click);
-            // 
             // rESTARTToolStripMenuItem
             // 
             this.rESTARTToolStripMenuItem.Name = "rESTARTToolStripMenuItem";
             this.rESTARTToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.rESTARTToolStripMenuItem.Text = "RESTART";
+            this.rESTARTToolStripMenuItem.Click += new System.EventHandler(this.rESTARTToolStripMenuItem_Click);
             // 
             // sPEEDToolStripMenuItem
             // 
@@ -139,7 +131,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem sTARTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pAUZAToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem rESTARTToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sPEEDToolStripMenuItem;
         private System.Windows.Forms.Panel Playground;

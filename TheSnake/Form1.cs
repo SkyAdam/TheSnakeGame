@@ -123,5 +123,15 @@ namespace TheSnake
                     break;
             }
         }
+
+        private void rESTARTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (is_start)
+            {
+                theSnake = new Snake(Playground.Width, Playground.Height);
+                theFood = new Food(theSnake.oneSegment);
+                    
+            }
+        }
     }
 }
