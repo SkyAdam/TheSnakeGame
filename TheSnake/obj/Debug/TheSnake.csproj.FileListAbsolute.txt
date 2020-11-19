@@ -8,3 +8,7 @@ C:\Users\xande\Desktop\TheSnakeGame\TheSnake\obj\Debug\TheSnake.csproj.GenerateR
 C:\Users\xande\Desktop\TheSnakeGame\TheSnake\obj\Debug\TheSnake.csproj.CoreCompileInputs.cache
 C:\Users\xande\Desktop\TheSnakeGame\TheSnake\obj\Debug\TheSnake.exe
 C:\Users\xande\Desktop\TheSnakeGame\TheSnake\obj\Debug\TheSnake.pdb
+C:\Users\xande\Desktop\TheSnakeGame\TheSnake\bin\Debug\TheSnake.exe.manifest
+C:\Users\xande\Desktop\TheSnakeGame\TheSnake\bin\Debug\TheSnake.application
+C:\Users\xande\Desktop\TheSnakeGame\TheSnake\obj\Debug\TheSnake.exe.manifest
+C:\Users\xande\Desktop\TheSnakeGame\TheSnake\obj\Debug\TheSnake.application
