@@ -78,8 +78,9 @@ namespace TheSnake
         }
         public void drawSnake(Graphics g,Image imageOfSnake) //gdzie i co chce narysowac
         {
-            
-            for(int i =0; i < segments; i++)
+
+            g.DrawImage(Properties.Resources.snakehead1, x[0], y[0]);
+            for(int i =1; i < segments; i++)
             {
                 Point locationOfSegment = new Point(x[i], y[i]);
                 g.DrawImage(imageOfSnake, locationOfSegment);

@@ -80,14 +80,14 @@
             // fASTERToolStripMenuItem
             // 
             this.fASTERToolStripMenuItem.Name = "fASTERToolStripMenuItem";
-            this.fASTERToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fASTERToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.fASTERToolStripMenuItem.Text = "FASTER";
             this.fASTERToolStripMenuItem.Click += new System.EventHandler(this.fASTERToolStripMenuItem_Click);
             // 
             // sLOWERToolStripMenuItem
             // 
             this.sLOWERToolStripMenuItem.Name = "sLOWERToolStripMenuItem";
-            this.sLOWERToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sLOWERToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.sLOWERToolStripMenuItem.Text = "SLOWER";
             this.sLOWERToolStripMenuItem.Click += new System.EventHandler(this.sLOWERToolStripMenuItem_Click);
             // 

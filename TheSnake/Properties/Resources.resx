@@ -121,6 +121,9 @@
   <data name="snakepart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\snakepart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="snakehead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snakehead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="grassSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grassSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -129,5 +132,8 @@
   </data>
   <data name="fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fruit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snakehead1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snakehead1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

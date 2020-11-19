@@ -93,6 +93,26 @@ namespace TheSnake.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap snakehead {
+            get {
+                object obj = ResourceManager.GetObject("snakehead", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap snakehead1 {
+            get {
+                object obj = ResourceManager.GetObject("snakehead1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap snakepart {
             get {
                 object obj = ResourceManager.GetObject("snakepart", resourceCulture);
